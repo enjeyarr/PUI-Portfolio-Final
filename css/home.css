@@ -1,0 +1,70 @@
+/* Large   */
+
+/* Home Typography */
+h1 {
+  text-align: center;
+}
+
+h2 {
+  font-size: 4.2vw;
+  text-align: center;
+  padding: 15px;
+}
+
+/* Header */
+
+
+
+
+/* Main */
+
+img {
+  width: 100%;
+/*  max-height: 90vh;*/
+}  
+
+.shaded-cell {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#character-shaded-cell {
+  background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url("../images/stylized+fantasy+characters2.jpg");
+  background-position: right;
+  background-size: cover;
+}
+
+#env-shaded-cell {
+  background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url("../images/necro.jpg");
+  background-position: right;
+  background-size: cover;
+}
+
+#surface-shaded-cell {
+  background: linear-gradient(rgba(0, 0, 0, 0.89), rgba(0, 0, 0, 0.89)), url("../images/June.jpg");
+  background-position: right;
+  background-size: cover;
+}
+
+
+/* Footer */
+
+
+
+
+
+/* SMALL ONLY */
+@media screen and (max-width: 39.9375em) {}
+
+/* MEDIUM UP */
+@media screen and (min-width: 40em) {}
+
+/* MEDIUM ONLY */
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {}
+
+/* LARGE UP */
+@media screen and (min-width: 64em) {}
+
+/* LARGE ONLY */
+@media screen and (min-width: 64em) and (max-width: 74.9375em) {}
