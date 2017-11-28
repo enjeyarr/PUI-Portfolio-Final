@@ -1,5 +1,3 @@
-/* Large   */
-
 /* Home Typography */
 h1 {
   text-align: center;
@@ -64,7 +62,12 @@ img {
 @media screen and (min-width: 40em) and (max-width: 63.9375em) {}
 
 /* LARGE UP */
-@media screen and (min-width: 64em) {}
+@media screen and (min-width: 64em) {
+  
+  
+
+  
+}
 
 /* LARGE ONLY */
 @media screen and (min-width: 64em) and (max-width: 74.9375em) {}
