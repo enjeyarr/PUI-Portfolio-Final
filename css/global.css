@@ -73,6 +73,8 @@ nav li:hover, nav li:focus {
 .is-dropdown-submenu {
   background-color: #0D0F12;
   border: none;
+  margin: none;
+  padding: none;
 }
 
   /*Shaded cell background images*/
@@ -88,6 +90,9 @@ nav li:hover, nav li:focus {
   
 }
   
+  .item:hover {
+    cursor: zoom-in;
+  }
   
   #character-shaded-cell {
     background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url("../images/stylized+fantasy+characters2.jpg");

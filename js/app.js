@@ -1,11 +1,17 @@
 $(document).foundation();
 
 
-$('#gallery-selector').lightGallery({
-  selector: '.item',
-  cssEasing: 'cubic-bezier(0.25, 0, 0.25, 1)',
-  fullscreen: false,
-  download: false,
-  autoplay: false,
-  share: false
+
+//Homepage animations
+
+//Title name animation
+$(document).ready(function() {
+  
+  $('#alexander').addClass('animated fadeIn').delay(500);
+  
+  $('#alexander').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
+    $('#winkler').addClass('animated fadeIn');
+  });
+  
+  
 });
