@@ -7,6 +7,7 @@
     <title>Characters Portfolio</title>
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
     <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/lightgallery.css">
     <link rel="stylesheet" href="css/global.css">
     <link rel="stylesheet" href="css/characters.css">
   </head>
@@ -47,68 +48,74 @@
     
     <main>
       
-       <!-- Name header -->
+      
+       
+        <!-- Name header -->
       <div class="grid-x">
         <div class="small-12 medium cell">
           <h1>CHARACTERS</h1>
         </div>
       </div>
       
+      <div id="gallery-selector">
+      
       <!-- main portfolio cards -->
       <div class="grid-x">
         <a href="#" class="small-6 medium-6 cell img-hover">
-          <div class="rowhover first-row-char">
+          <div data-src="images/bloodborne-fanart.jpg" class="rowhover first-row-char item">
             <img src="images/bloodborne-sword-small.jpg">
           </div>
         </a>
-        <a class="small-6 medium-6 cell img-hover">
-          <div class="rowhover">
+        <a href="#" class="small-6 medium-6 cell img-hover">
+          <div data-src="images/CDChallenge+venice.jpg" class="rowhover item">
             <img src="images/venice-home.jpg" class="img-full">
           </div>
         </a>
       </div>
       
+        
       <!-- second row -->
       <div class="grid-x">
         <a href="#" class="small-4 medium-4 cell img-hover">
-          <div class="rowhover">
+          <div data-src="images/dotd-fury.jpg" class="rowhover item">
             <img src="images/dotd-fury.jpg">
           </div>
         </a>
         <a href="#" class="small-4 medium-4 cell img-hover">
-          <div class="rowhover second-row-char">
+          <div data-src="images/alt-vise-look.jpg" class="rowhover second-row-char item">
             <img src="images/alt-vise-look.jpg">
           </div>
         </a>
         <a href="#" class="small-4 medium-4 cell img-hover">
-          <div class="rowhover">
+          <div data-src="images/stylized+fantasy+characters2.jpg" class="rowhover item">
             <img src="images/stylized+fantasy+necro.jpg">
           </div>
         </a>
       </div>
       
       <!-- third row -->
-      <div class="img-hover">
-        <div class="rowhover third-row-char">
-        <img src="images/alexander-winkler-bloodborne-fanartbs.jpg" class="img-full">
-          </div>
-      </div>
+      <a href="#" class="img-hover">
+        <div data-src="images/alexander-winkler-bloodborne-fanartbs.jpg" class="rowhover third-row-char item">
+          <img src="images/alexander-winkler-bloodborne-fanartbs.jpg" class="img-full">
+        </div>
+      </a>
       
       <!-- fourth row -->
       <div class="grid-x">
-        <a class="small-6 medium-6 cell img-hover">
-          <div class="rowhover fourth-row-char">
+        <a href="#" class="small-6 medium-6 cell img-hover">
+          <div data-src="images/metal_skull.png" class="rowhover fourth-row-char item">
             <img src="images/metal_skull.png">
           </div>
         </a>
-        <a class="small-6 medium-6 cell img-hover">
-          <div class="rowhover">
+        <a href="#" class="small-6 medium-6 cell img-hover">
+          <div data-src="images/tears-in-snow.jpg" class="rowhover item">
             <img src="images/tears-in-snow-small.jpg">
           </div>
         </a>
       </div>
       
-      
+      </div> <!-- end of lightbox gallery -->
+        
       <!-- alternate portfolio page links -->
       <div class="grid-x" id="bottom-portfolio">
         <a href="hard-surface.html" class="small-6 medium-6 cell">
@@ -123,6 +130,8 @@
         </a>
       </div>
       
+    
+        
     </main>
     
     
@@ -157,6 +166,8 @@
     <script src="js/vendor/jquery.js"></script>
     <script src="js/vendor/what-input.js"></script>
     <script src="js/vendor/foundation.js"></script>
+    <script src="js/lightgallery-all.js"></script>
     <script src="js/app.js"></script>
+   
   </body>
 </html>
