@@ -1,0 +1,112 @@
+/* Home Typography */
+h1 {
+  text-align: center;
+}
+
+h2 {
+  font-size: 4.2vw;
+  text-align: center;
+  padding: 15px;
+}
+
+/* Header */
+
+
+
+/* Main */
+
+.img-full {
+  width: 100%;
+}
+
+#surface-shaded-cell {
+  height: 30vw;
+  background-position: bottom;
+}
+
+#surface-shaded-cell, #surface-shaded-cell:hover  {
+  background-position: bottom;
+
+}
+
+
+#character-shaded-cell {
+  height: 30vw;
+}
+
+
+/*Image hover animation effect*/
+/*    Thanks to Thomas Higginbotham for the CodePen that inspired this   */
+.img-hover {
+
+  overflow: hidden;
+  background: #fff;
+/*    height: 54vw;*/
+  height: ;
+}
+
+.img-hover img {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: auto;
+  min-height: 100%;
+  position: absolute;
+  overflow: hidden;
+  transition: all .25s ease-out;
+}
+
+.rowhover {
+  position:  relative;
+}
+
+/*Height fixes for individual rows in Environments*/
+
+.first-row-char {
+  height: 51.5vw;
+}
+
+.second-row-char {
+  height: 73vw;
+}
+
+.third-row-char {
+  height: 52vw;
+}
+
+.fourth-row-char {
+  height: 65vw;
+}
+
+
+
+.img-hover:hover img {
+  transform: scale(1.1);
+}
+
+.img-hover:hover .rowhover::before {
+  display: block;
+}
+
+
+/* Footer */
+
+
+
+
+
+/* SMALL ONLY */
+@media screen and (max-width: 39.9375em) {}
+
+/* MEDIUM UP */
+@media screen and (min-width: 40em) {}
+
+/* MEDIUM ONLY */
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {}
+
+/* LARGE UP */
+@media screen and (min-width: 64em) {}
+
+/* LARGE ONLY */
+@media screen and (min-width: 64em) and (max-width: 74.9375em) {}

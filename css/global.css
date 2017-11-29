@@ -83,7 +83,10 @@ nav li:hover, nav li:focus {
     align-items: center;
   }
   
-
+.img-full {
+  width: 50vw;
+  
+}
   
   
   #character-shaded-cell {

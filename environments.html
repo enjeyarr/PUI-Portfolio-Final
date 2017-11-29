@@ -4,21 +4,23 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hard Surface Concepts</title>
+    <title>Environments Portfolio</title>
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
     <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/lightgallery.css">
     <link rel="stylesheet" href="css/global.css">
     <link rel="stylesheet" href="css/environments.css">
   </head>
   <body>
-    
+     
     <header>
+      
         <div id="left-logo-line"></div>
         <div id="right-line-container">
           <div id="right-logo-line"></div>
         </div>
         <a href="index.html" id="logo-link">
-          <svg id="AW-logo" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 200">
+            <svg id="AW-logo" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 200">
             <title>AW Logo</title>
             <polygon points="246.5 97.39 316.41 167.3 394.19 167.3 246.5 19.61 154.11 112 0.5 112 0.5 167 176.89 167 246.5 97.39"/>
             <polygon points="705.61 18.5 636 88.11 565.89 18 541.11 18 470.5 88.61 399.89 18 322.11 18 470.5 166.39 553.5 83.39 636 165.89 728.39 73.5 882 73.5 882 18.5 705.61 18.5"/>
@@ -43,21 +45,76 @@
       </nav>
     </header>
     
-    <!-- Main content -->
+    
     <main>
+      
+      
+       
+        <!-- Name header -->
       <div class="grid-x">
         <div class="small-12 medium cell">
-          <!-- Name header -->
           <h1>ENVIRONMENTS</h1>
         </div>
       </div>
       
+      <div id="gallery-selector">
+      
       <!-- main portfolio cards -->
+        
+      <!-- first row -->
       <div class="grid-x">
-        <div class="small-5 medium-6 cell">
-        </div>
+        <a href="#" class="small-12 medium-12 cell img-hover">
+          <div data-src="images/victory-day.jpg" class="rowhover first-row-char item">
+            <img src="images/victory-day.jpg">
+          </div>
+        </a>  
       </div>
       
+        
+      <!-- second row -->
+      <div class="grid-x">
+        <a href="#" class="small-12 medium-12 cell img-hover">
+          <div data-src="images/new-temple.jpeg" class="rowhover second-row-char item ">
+            <img src="images/new-temple.jpeg" class="img-full">
+          </div>
+        </a>
+      </div>
+      
+      <!-- third row -->
+      <a href="#" class="img-hover">
+        <div data-src="images/necro.jpg" class="rowhover third-row-char item">
+          <img src="images/necro.jpg" class="img-full">
+        </div>
+      </a>
+      
+      <!-- fourth row -->
+      <div class="grid-x">
+        <a href="#" class="small-12 medium-12 cell img-hover">
+          <div data-src="images/alexander-winkler-key2_preview.jpeg" class="rowhover fourth-row-char item">
+            <img src="images/alexander-winkler-key2_preview.jpeg">
+          </div>
+        </a>
+      
+      </div>
+      
+      </div> <!-- end of lightbox gallery -->
+        
+      <!-- alternate portfolio page links -->
+      <div class="grid-x" id="bottom-portfolio">
+        <a href="hard-surface.html" class="small-6 medium-6 cell">
+          <div id="surface-shaded-cell"  class="shaded-cell">
+            <h2>HARD SURFACE CONCEPTS</h2>
+          </div>
+        </a>
+        <a href="characters.html" class="small-6 medium-6 cell">
+          <div id="character-shaded-cell" class="shaded-cell">
+            <h2>CHARACTERS</h2>
+          </div>
+        </a>
+      </div>
+      
+    
+        
     </main>
     
     
@@ -70,7 +127,7 @@
 <!--            <div class="grid-x">-->
 <!--            <div class="small-2 cell">-->
               <li>
-                <a href="#">PORTFOLIO</a>
+                <a href="index.html">PORTFOLIO</a>
                 <ul class="menu">
                   <li class="menu-item"><a href="characters.html">CHARACTERS</a></li>
                   <li class="menu-item"><a href="hard-surface.html">HARD SURFACE CONCEPTS</a></li>
@@ -92,6 +149,8 @@
     <script src="js/vendor/jquery.js"></script>
     <script src="js/vendor/what-input.js"></script>
     <script src="js/vendor/foundation.js"></script>
+    <script src="js/lightgallery-all.js"></script>
     <script src="js/app.js"></script>
+   
   </body>
 </html>
