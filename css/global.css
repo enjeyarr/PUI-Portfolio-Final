@@ -75,6 +75,59 @@ nav li:hover, nav li:focus {
   border: none;
 }
 
+  /*Shaded cell background images*/
+
+  .shaded-cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+
+  
+  
+  #character-shaded-cell {
+    background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url("../images/stylized+fantasy+characters2.jpg");
+    background-position: right;
+    background-size: cover;
+  }
+
+  #character-shaded-cell:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.85)), url("../images/stylized+fantasy+characters2.jpg");
+    background-position: right;
+    background-size: cover;
+  }
+
+  #env-shaded-cell {
+    background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url("../images/necro.jpg");
+    background-position: right;
+    background-size: cover;
+  }
+
+  #env-shaded-cell:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.85)), url("../images/necro.jpg");
+    background-position: right;
+    background-size: cover;
+  }
+
+  #surface-shaded-cell {
+    background: linear-gradient(rgba(0, 0, 0, 0.89), rgba(0, 0, 0, 0.89)), url("../images/June.jpg");
+    background-position: right;
+    background-size: cover;
+  }
+
+  #surface-shaded-cell:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.89)), url("../images/June.jpg");
+    background-position: right;
+    background-size: cover;
+  }
+
+#bottom-portfolio {
+    margin-top: 8vw;
+}
+
+
+
 /* FOOTER */
 
 footer nav {
