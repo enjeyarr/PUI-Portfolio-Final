@@ -73,7 +73,6 @@ h2 {
     to   { opacity: 1; }
 }
 
-
 .subtitle-container {
   text-align: center;
   margin: 4vw 0;
@@ -125,7 +124,7 @@ h2 {
 }
 
 .rowhover {
-  position:  relative;
+  position: relative;
   overflow: hidden;
 }
 
