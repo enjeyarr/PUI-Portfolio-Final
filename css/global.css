@@ -21,7 +21,6 @@ ul {
 li {
   list-style: none;
   margin: 0;
-  
 }
 
 /* HEADER AND NAVIGATION */
@@ -70,14 +69,55 @@ nav li:hover, nav li:focus {
   border: none;
 }
 
+.inner-header {
+  margin-bottom: 6vw;
+}
+
+
+/* Dropdown submenu */
 .is-dropdown-submenu {
-  background-color: #0D0F12;
+  background-color: ;
   border: none;
   margin: none;
   padding: none;
 }
 
-  /*Shaded cell background images*/
+.is-dropdown-submenu li {
+  margin: 0;
+}
+
+.is-dropdown-submenu li:hover {
+  margin: 0;
+  text-decoration: underline;
+}
+
+/*MAIN */
+
+
+/*Particle animation*/
+
+.large-particles {
+  width: 50%;
+  margin: auto;
+  display: absolute;
+  position: absolute;
+  left: 25%;
+  top: 25%;
+}
+
+.small-particles {
+  width: 40%;
+  margin: auto;
+  display: absolute;
+  position: absolute;
+  left: 30%;
+  top: 25%;
+  height: 10vw;
+}
+
+
+
+/*Shaded cell background images*/
 
   .shaded-cell {
     display: flex;
@@ -85,11 +125,10 @@ nav li:hover, nav li:focus {
     align-items: center;
   }
   
-.img-full {
-  width: 50vw;
-  
-}
-  
+  .img-full {
+    width: 50vw;
+  }
+
   .item:hover {
     cursor: zoom-in;
   }
@@ -130,6 +169,8 @@ nav li:hover, nav li:focus {
     background-size: cover;
   }
 
+
+
 #bottom-portfolio {
     margin-top: 8vw;
 }
@@ -144,11 +185,18 @@ footer nav {
   margin-bottom: 4rem;
 */
   text-align: center;
-  width: 100%
+  width: 100%;
+    margin-top: 5vw;
 }
 
 footer {
-  padding: 10% 0;
+  padding: 7% 0;
+}
+  
+footer h2 {
+  margin: 0;
+  font-size: 3.3vw;
+  padding: 0;
 }
 
 footer nav ul {
