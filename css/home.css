@@ -68,17 +68,11 @@ h2 {
     -webkit-animation-timing-function: ease-in-out; /* Safari, Chrome and Opera > 12.1 */
 }
 
-
 @keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }
 }
 
-
-img {
-  width: 100%;
-/*  max-height: 90vh;*/
-}
 
 .subtitle-container {
   text-align: center;
@@ -93,7 +87,7 @@ img {
 }
 
 
- /*full-width hover effects */
+ /*full-width shaded cell hover effects */
  .character-row:hover #character-shaded-cell {
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.85)), url("../images/stylized+fantasy+characters2.jpg");
     background-position: right;
@@ -112,8 +106,48 @@ img {
     background-size: cover;
   }
 
+/*color image hover effects*/
+.img-hover {
+  overflow: hidden;
+  background-color: #0D0F12;
+}
 
+.img-hover img {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: auto;
+  min-height: 100%;
+  position: absolute;
+  overflow: hidden;
+  transition: all .25s ease-out;
+}
 
+.rowhover {
+  position:  relative;
+  overflow: hidden;
+}
+
+.img-hover:hover img {
+  transform: scale(1.08);
+}
+
+.img-hover:hover .rowhover::before {
+  display: block;
+}
+
+.first-row-home {
+  height: 52.5vw;
+}
+
+.second-row-home {
+  height: 47.5vw;
+}
+
+.third-row-home {
+  height: 52.5vw;
+}
 
 /* Footer */
 

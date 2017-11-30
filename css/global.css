@@ -70,7 +70,8 @@ nav li:hover, nav li:focus {
 }
 
 .inner-header {
-  margin-bottom: 6vw;
+  margin-bottom: 7vw;
+  margin-top: 6vw;
 }
 
 
@@ -111,10 +112,9 @@ nav li:hover, nav li:focus {
   display: absolute;
   position: absolute;
   left: 30%;
-  top: 25%;
+  top: 35%;
   height: 10vw;
 }
-
 
 
 /*Shaded cell background images*/
@@ -170,7 +170,7 @@ nav li:hover, nav li:focus {
   }
 
 
-
+/*Next portfolio section*/
 #bottom-portfolio {
     margin-top: 8vw;
 }
@@ -207,13 +207,6 @@ footer nav li {
   display: inline-block;
   margin: 0 2.2rem;
 }
-
-  footer nav > ul {
-
-  }
-  
-  footer nav li {
-  }
   
 
   #footer-menu {
@@ -264,6 +257,15 @@ footer nav li {
     margin: .2rem auto;
   }
   
+  #alexander {
+    margin-top: 10vw;
+  }
+  
+  .inner-header {
+    margin-top: 10vw;
+    margin-bottom: 9vw;
+  }
+  
   
   /* FOOTER */
   
@@ -272,7 +274,12 @@ footer nav li {
     width: 60%;
     margin: auto;
   }
-
+  
+  footer h2 {
+    margin: 0;
+    font-size: 6.8vw;
+    padding: 0;
+  }
   
 }
 
